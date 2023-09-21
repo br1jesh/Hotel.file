@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel booking web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="Hotel booking.css">
+</head>
+
+<body>
+    <header>
+        <i class="fa-solid fa-bars" id="menu-bar"></i>
+        <a href="#" class="logo"><span>H</span>otel</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+           
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here .....">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!-- login page -->
+    <div class="login-form-container">
+        <i class="fa-solid fa-xmark" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forgrt password? <a href="#">click here</a></p>
+            <p>don't have account ? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="contant">
+            <h3>welcome to a global icon of luxury</h3>
+            <p>discover new place with us, luxury awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="img-1.mp4"></span>
+            <span class="vid-btn" data-src="img-2.mp4"></span>
+            <span class="vid-btn" data-src="img-3.mp4"></span>
+            <span class="vid-btn" data-src="img-4.mp4"></span>
+            <span class="vid-btn" data-src="img-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="img-2.mp4.mp4" id="video-silder" loop autoplay muted></video>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- book section -->
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="img">
+                <img src="hotelbooking.png.png" alt="">
+            </div>
+            <form action="">
+                <div class="inputbox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputbox">
+                    <h3>how many</h3>
+                    <input type="text" placeholder="number of guests">
+                </div>
+                <div class="inputbox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputbox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- packages section -->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+
+        <div class="box-container">
+            <div class="box">
+                <img src="russia.png.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot"> Russia</i></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                    </div>
+                    <div class="price">$99.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="india.png.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot"> India</i></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price">$169.00 <span>$220.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="japan.png.png" alt="">
+                <div class="content">
+                    <h3><i class="fa-solid fa-location-dot"> Japan</i></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="price">$89.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+    </section>
+
+
+
+
+    <!-- services setion -->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fa-solid fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+
+            <div class="box">
+                <i class="fa-solid fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+            </div>
+
+
+            <div class="box">
+                <i class="fa-solid fa-earth-americas"></i>
+                <h3>Around the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+
+            <div class="box">
+                <i class="fa-solid fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+
+            <div class="box">
+                <i class="fa-solid fa-route"></i>
+                <h3>adventure</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- gallery section  -->
+    <section class="gallary" id="gallery">
+        <h1 class="heading">
+            <span>G</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+
+        <div class="box-container">
+            <div class="box">
+                <img src="img-11.png" alt="">
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iusto officiis </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img-12.png" alt="">
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iusto officiis </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="img-13.png" alt="">
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iusto officiis </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="img-14.png" alt="">
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iusto officiis </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="img-16.png" alt="">
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iusto officiis </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="img-17.png" alt="">
+                <div class="content">
+                    <h3>amzing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iusto officiis </p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- js file -->
+    <script src="main.js"></script>
+</body>
+
+</html>
